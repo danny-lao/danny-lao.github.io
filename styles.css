@@ -59,7 +59,7 @@
     margin-left: 5px;
   }
   
-  /* SECTION 1: Hero */
+  /* SECTION 1: Introduction */
   .introduction {
     display: flex;
     justify-content: space-between;
@@ -195,6 +195,30 @@
     margin-bottom: 10px;
   }
 
+  .pcbuilds-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.pcbuilds-section th,
+.pcbuilds-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.pcbuilds-section th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.pcbuilds-section tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pcbuilds-section tr:hover {
+    background-color: #ddd;
+}
   /* SECTION 5: Contact */
   .contact-section {
     padding: 0 50px;
