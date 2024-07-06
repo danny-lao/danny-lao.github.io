@@ -107,8 +107,26 @@
     width: 350px;
     border-radius: 50%;
   }
+  /* SECTION 2: About Me */
+  .aboutme-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+  }
   
-  /* SECTION 2: Skills */
+  .aboutme-section h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .aboutme-section .group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .aboutme-section .group .text {
+    flex: 8;
+  }
+  /* SECTION 3: Skills */
   .skills-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -154,7 +172,7 @@
     font-size: 18px;
   }
   
-  /* SECTION 3: Projects */
+  /* SECTION 4: Projects */
   .projects-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -172,9 +190,10 @@
   }
   .projects-section .group .text {
     flex: 8;
+    margin-bottom: 30px;
   }
 
-  /* SECTION 4: PC Builds */
+  /* SECTION 5: PC Builds */
   .pcbuilds-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -219,7 +238,7 @@
 .pcbuilds-section tr:hover {
     background-color: #ddd;
 }
-  /* SECTION 5: Contact */
+  /* SECTION 6: Contact */
   .contact-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -287,8 +306,14 @@
     .introduction .headshot img {
       width: 300px;
     }
-  
-    /* SECTION 3: Projects */
+    /* SECTION 2: Projects */
+    .aboutme-section {
+      text-align: center;
+    }
+    .aboutme-section .group {
+      flex-direction: column;
+    }
+    /* SECTION 4: Projects */
     .projects-section {
       text-align: center;
     }
@@ -296,14 +321,14 @@
     .projects-section .group {
       flex-direction: column;
     }
-    /* SECTION 4: PC Builds*/
+    /* SECTION 5: PC Builds*/
     .pcbuilds-section{
       text-align: center;
     }
     .pcbuilds-section .group{
       flex-direction: column;
     }
-    /* SECTION 5: Contact */
+    /* SECTION 6: Contact */
     .contact-section .group {
       flex-direction: column;
     }
@@ -337,8 +362,11 @@
     .introduction .text h2 {
       font-size: 30px;
     }
-  
-    /* SECTION 2: Skills */
+    /* SECTION 2: About Me */
+    .projects-section {
+      padding: 0 20px;
+    }
+    /* SECTION 3: Skills */
     .skills-section {
       padding: 0 20px;
     }
@@ -347,15 +375,15 @@
       font-size: 16px;
     }
   
-    /* SECTION 3: Projects */
+    /* SECTION 4: Projects */
     .projects-section {
       padding: 0 20px;
     }
-    /* SECTION 4: PC Builds */
+    /* SECTION 5: PC Builds */
     .pcbuilds-section {
       padding: 0 20px;
     }
-    /* SECTION 5: Contact */
+    /* SECTION 6: Contact */
     .contact-section {
       padding: 0 20px;
     }
