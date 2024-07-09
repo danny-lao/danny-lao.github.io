@@ -1,390 +1,572 @@
 :root {
-    --text-color: #1a1c20;
-    --link-color: #4a76ee;
-    --background-color: #eeeff1;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  a {
-    color: var(--link-color);
-    text-decoration: none;
-  }
-  
-  /* NAVBAR */
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0 50px;
-    height: 80px;
-  }
-  
-  nav .left a {
-    color: var(--text-color);
-    font-size: 22px;
-    font-weight: 600;
-  }
-  
-  nav .right a {
-    color: var(--text-color);
-    margin: 0 10px;
-  }
-  
-  nav .right a:last-child {
-    color: var(--background-color);
-    background-color: var(--text-color);
-    padding: 5px 15px;
-    border-radius: 5px;
-  }
-  
-  nav .right a span {
-    margin-left: 5px;
-  }
-  
-  /* SECTION 1: Introduction */
-  .introduction {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    margin: 50px 0;
-    margin-bottom: 100px;
-    gap: 40px;
-  }
-  
-  .introduction .text {
-    flex: 5;
-  }
-  
-  .introduction .text h2 {
-    font-size: 45px;
-  }
-  
-  .introduction .text .links {
-    margin-top: 25px;
-  }
-  
-  .introduction .text .links a {
-    display: inline-block;
-    padding: 5px 10px;
-    border: 2px solid var(--link-color);
-    border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    transition: .1s;
-  }
-  
-  .introduction .text .links a:hover {
-    color: var(--text-color);
-    border: 2px solid var(--text-color);
-  }
-  
-  .introduction .headshot {
-    flex: 2;
-    display: flex;
-    justify-content: right;
-  }
-  
-  .introduction .headshot img {
-    width: 350px;
-    border-radius: 50%;
-  }
-  /* SECTION 2: About Me */
-  .aboutme-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .aboutme-section h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .aboutme-section .group {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: #eeeff1;
+}
 
-  /* SECTION 3: Skills */
-  .skills-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .skills-section h2 {
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-  }
-  
-  .skills-section .text {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .skills-section .cells {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .skills-section .cells .cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  
-    width: 200px;
-    padding: 10px 20px;
-    margin: 10px;
-    border: 1.5px solid #d3d3d3;
-    border-radius: 5px;
-  }
-  
-  .skills-section .cells .cell img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    border-radius: 2px;
-  }
-  
-  .skills-section .cells .cell span {
-    font-size: 18px;
-  }
-  
-  /* SECTION 4: Projects */
-  .projects-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .projects-section h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-  }
-  
-  .projects-section .group {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-  .projects-section .group .text {
-    flex: 8;
-    margin-bottom: 30px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* SECTION 5: PC Builds */
-  .pcbuilds-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .pcbuilds-section h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-  }
-  
-  .pcbuilds-section .group {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-  .pcbuilds-section .group .text {
-    flex: 8;
-    margin-bottom: 10px;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .pcbuilds-section table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+  height: 80px;
+}
+
+nav .left a {
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav .right a {
+  color: var(--text-color);
+  margin: 0 10px;
+}
+
+nav .right a:last-child {
+  color: var(--background-color);
+  background-color: var(--text-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+nav .right a span {
+  margin-left: 5px;
+}
+
+/* SECTION 1: Introduction */
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin: 50px 0;
+  margin-bottom: 100px;
+  gap: 40px;
+}
+
+.introduction .text {
+  flex: 5;
+}
+
+.introduction .text h2 {
+  font-size: 45px;
+}
+
+.introduction .text .links {
+  margin-top: 25px;
+}
+
+.introduction .text .links a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid var(--link-color);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: .1s;
+}
+
+.introduction .text .links a:hover {
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+}
+
+.introduction .headshot {
+  flex: 2;
+  display: flex;
+  justify-content: right;
+}
+
+.introduction .headshot img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+/* SECTION 2: About Me */
+.aboutme-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.aboutme-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.aboutme-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* SECTION 3:Skills */
+.skills-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.skills-section .text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-section .cells {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-section .cells .cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.skills-section .cells .cell img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.skills-section .cells .cell span {
+  font-size: 18px;
+}
+
+/* SECTION 4: Experience */
+.experience-section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.experience-section .text {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+
+.experience-section .timeline{
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.experience-section .container{
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+@keyframes movedown{
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.experience-section .container:nth-child(1){
+  animation-delay: 0s;
+}
+.experience-section .container:nth-child(2){
+  animation-delay: 1s;
+}
+.experience-section .container:nth-child(3){
+  animation-delay: 2s;
+}
+.experience-section .container:nth-child(4){
+  animation-delay: 3s;
+}
+.experience-section .container:nth-child(5){
+  animation-delay: 4s;
+}
+.experience-section .container:nth-child(6){
+  animation-delay: 5s;
+}
+
+.experience-section .text-box{
+  padding: 20px 30px;
+  position: relative;
+  background: #cbdced;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.experience-section .text-box h2{
+  font-weight: 600;
+}
+
+.experience-section .text-box small{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.experience-section .left-container{
+  left: 0;
+}
+
+.experience-section .right-container{
+  left: 50%;
+}
+
+.experience-section .container img{
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+
+.experience-section .right-container img{
+  left: -20px;
+}
+
+.experience-section .timeline::after{
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 1600px;
+  background: #21384f;
+  top:0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 100;
+  }
+}
+.experience-section .left-container-arrow{
+  height: 0;
+  width:0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #cbdced;
+  right: -15px;
+}
+
+.experience-section .right-container-arrow{
+  height: 0;
+  width:0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #cbdced;
+  left: -15px;
+}
+/* SECTION 5:Projects */
+.projects-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.projects-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.projects-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.projects-section .group .text {
+  flex: 8;
+  margin-bottom: 30px;
+}
+
+/* SECTION 6:PC Builds */
+.pcbuilds-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.pcbuilds-section h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.pcbuilds-section .group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.pcbuilds-section .group .text {
+  flex: 8;
+  margin-bottom: 10px;
+}
+
+.pcbuilds-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
 .pcbuilds-section th,
 .pcbuilds-section td {
-    border: 1px solid #ddd;
-    padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
 .pcbuilds-section th {
-    background-color: #f2f2f2;
-    text-align: left;
+  background-color: #f2f2f2;
+  text-align: left;
 }
 
 .pcbuilds-section tr:nth-child(even) {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .pcbuilds-section tr:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
-  /* SECTION 6: Contact */
-  .contact-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-  }
-  
-  .contact-section h2 {
+
+/* SECTION 7:Contact */
+.contact-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.contact-section h2 {
+  font-size: 35px;
+}
+
+.contact-section .group {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-section .group .text {
+  flex: 3;
+  margin-top: 20px;
+}
+
+.contact-section .group form {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .group form input,
+.contact-section .group form textarea {
+  font-family: 'Poppins', sans-serif;
+  border: 2px solid var(--link-color);
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  resize: none;
+}
+
+.contact-section .group form button {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background-color: var(--link-color);
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.contact-section .group form button:hover {
+  filter: brightness(.9);
+}
+
+@media (max-width: 850px) {
+
+  /* SECTION 1: Hero */
+  .introduction .text h2 {
     font-size: 35px;
   }
-  
-  .contact-section .group {
-    display: flex;
-    gap: 50px;
+}
+
+@media (max-width: 740px) {
+
+  /* SECTION 1: Hero */
+  .introduction {
+    flex-direction: column-reverse;
   }
-  
-  .contact-section .group .text {
-    flex: 3;
-    margin-top: 20px;
+
+  .introduction .headshot img {
+    width: 300px;
   }
-  
-  .contact-section .group form {
-    flex: 3;
-    display: flex;
+
+  /* SECTION 2: Projects */
+  .aboutme-section {
+    text-align: center;
+  }
+
+  .aboutme-section .group {
     flex-direction: column;
   }
+
+  /*SECTION 4: Experience */
   
-  .contact-section .group form input,
-  .contact-section .group form textarea {
-    font-family: 'Poppins', sans-serif;
-    border: 2px solid var(--link-color);
+  /* SECTION 5:Projects */
+  .projects-section {
+    text-align: center;
+  }
+
+  .projects-section .group {
+    flex-direction: column;
+  }
+
+  /* SECTION 6:PC Builds*/
+  .pcbuilds-section {
+    text-align: center;
+  }
+
+  .pcbuilds-section .group {
+    flex-direction: column;
+  }
+
+  /* SECTION 7:Contact */
+  .contact-section .group {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* NAVBAR */
+  nav {
+    padding: 0 20px;
+  }
+
+  nav .right a {
+    font-size: 22px;
+  }
+
+  nav .right a:last-child {
+    color: var(--text-color);
     background-color: transparent;
-    padding: 10px;
-    margin-bottom: 15px;
-    outline: none;
-    resize: none;
+    padding: 0;
   }
-  
-  .contact-section .group form button {
+
+  nav .right a span {
+    display: none;
+  }
+
+  /* SECTION 1: Hero */
+  .introduction {
+    padding: 0 20px;
+  }
+
+  .introduction .text h2 {
+    font-size: 30px;
+  }
+
+  /* SECTION 2: About Me */
+  .projects-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 3:Skills */
+  .skills-section {
+    padding: 0 20px;
+  }
+
+  .skills-section .cells .cell span {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    background-color: var(--link-color);
-    border: none;
-    height: 50px;
-    cursor: pointer;
-    transition: .1s;
   }
-  
-  .contact-section .group form button:hover {
-    filter: brightness(.9);
+  /* Section 4: Experience*/
+  .experience-section .timeline{
+    margin: 50px auto;
   }
-  
-  @media (max-width: 850px) {
-    /* SECTION 1: Hero */
-    .introduction .text h2 {
-      font-size: 35px;
-    }
+  .experience-section .timeline::after{
+    left:31px;
   }
-  
-  @media (max-width: 740px) {
-    /* SECTION 1: Hero */
-    .introduction {
-      flex-direction: column-reverse;
-    }
-  
-    .introduction .headshot img {
-      width: 300px;
-    }
-    /* SECTION 2: Projects */
-    .aboutme-section {
-      text-align: center;
-    }
-    .aboutme-section .group {
-      flex-direction: column;
-    }
-    /* SECTION 4: Projects */
-    .projects-section {
-      text-align: center;
-    }
-  
-    .projects-section .group {
-      flex-direction: column;
-    }
-    /* SECTION 5: PC Builds*/
-    .pcbuilds-section{
-      text-align: center;
-    }
-    .pcbuilds-section .group{
-      flex-direction: column;
-    }
-    /* SECTION 6: Contact */
-    .contact-section .group {
-      flex-direction: column;
-    }
+  .experience-section .container{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
   }
-  
-  @media (max-width: 600px) {
-    /* NAVBAR */
-    nav {
-      padding: 0 20px;
-    }
-  
-    nav .right a {
-      font-size: 22px;
-    }
-  
-    nav .right a:last-child {
-      color: var(--text-color);
-      background-color: transparent;
-      padding: 0;
-    }
-  
-    nav .right a span {
-      display: none;
-    }
-  
-    /* SECTION 1: Hero */
-    .introduction {
-      padding: 0 20px;
-    }
-  
-    .introduction .text h2 {
-      font-size: 30px;
-    }
-    /* SECTION 2: About Me */
-    .projects-section {
-      padding: 0 20px;
-    }
-    /* SECTION 3: Skills */
-    .skills-section {
-      padding: 0 20px;
-    }
-  
-    .skills-section .cells .cell span {
-      font-size: 16px;
-    }
-  
-    /* SECTION 4: Projects */
-    .projects-section {
-      padding: 0 20px;
-    }
-    /* SECTION 5: PC Builds */
-    .pcbuilds-section {
-      padding: 0 20px;
-    }
-    /* SECTION 6: Contact */
-    .contact-section {
-      padding: 0 20px;
-    }
+  .experience-section .text-box{
+    font-size: 13px;
   }
+  .experience-section .text-box small{
+    margin-bottom: 10px;
+  }
+  .experience-section .right-container{
+    left: 0;
+  }
+  .experience-section .left-container img, .experience-section .right-container img{
+    left: 10px;
+  }
+  .experience-section .left-container-arrow, .experience-section .right-container-arrow{
+    border-right: 15px solid #cbdced;
+    border-left: 0;
+    left: -15px;
+  }
+  /* SECTION 5:Projects */
+  .projects-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 6:PC Builds */
+  .pcbuilds-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 7:Contact */
+  .contact-section {
+    padding: 0 20px;
+  }
+}
