@@ -115,6 +115,7 @@
   
   .aboutme-section h2 {
     font-size: 35px;
+    margin-bottom: 30px;
     text-align: center;
   }
   
@@ -123,9 +124,7 @@
     align-items: center;
     gap: 50px;
   }
-  .aboutme-section .group .text {
-    flex: 8;
-  }
+
   /* SECTION 3: Skills */
   .skills-section {
     padding: 0 50px;
@@ -135,6 +134,7 @@
   .skills-section h2 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: 30px;
   }
   
   .skills-section .text {
