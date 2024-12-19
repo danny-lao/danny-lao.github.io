@@ -219,7 +219,7 @@ nav .right a span {
 .experience-section .timeline{
   position: relative;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 20px auto;
 }
 
 .experience-section .container{
@@ -300,13 +300,13 @@ nav .right a span {
   content: '';
   position: absolute;
   width: 6px;
-  height: 1600px;
+  height: 1450px;
   background: #21384f;
   top:0;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 6s linear forwards;
+  animation: moveline 4s linear forwards;
 }
 @keyframes moveline{
   0%{
@@ -366,7 +366,6 @@ nav .right a span {
   margin: 10px auto;
   padding: 0 10%;
   padding-bottom: 10px;
-  text-transform: capitalize;
 }
 
 .projects-section h1{
