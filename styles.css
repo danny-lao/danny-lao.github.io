@@ -108,7 +108,9 @@ nav .right a span {
 .introduction .text h2 {
   font-size: 45px;
 }
-
+.introduction .text h3 {
+  font-size: 25px;
+}
 .introduction .text .links {
   margin-top: 25px;
 }
@@ -300,7 +302,7 @@ nav .right a span {
   content: '';
   position: absolute;
   width: 6px;
-  height: 1450px;
+  height: 1800px;
   background: #21384f;
   top:0;
   left: 50%;
