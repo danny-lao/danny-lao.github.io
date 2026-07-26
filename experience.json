@@ -1,0 +1,69 @@
+[
+  {
+    "logo": "images/amd.jpeg",
+    "alt": "AMD logo",
+    "title": "Software Development Engineer 2 (Software Validation), AMD",
+    "date": "Feb 2026 - Present",
+    "bullets": [
+      "Verified pre-production APU platforms by executing automated, manual, and smoke testing across different Windows environments, identifying critical stability and compatibility issues prior to release.",
+      "Detected and led regression-based testing of software defects by reproducing issues and collecting diagnostic data (event logs, system traces), enabling faster root-cause analysis.",
+      "Ensured platform readiness by configuring and maintaining test environments (BIOS, OS, drivers) and validating system behavior under baseline and edge-case scenarios."
+    ]
+  },
+  {
+    "logo": "images/bingz.png",
+    "alt": "Bingz logo",
+    "title": "Crew Member, Bingz",
+    "date": "Nov 2025 - Feb 2026",
+    "bullets": [
+      "Provide exceptional customer service in a fast-paced food service environment, ensuring customer satisfaction and repeat business.",
+      "Prepare and serve food and beverages according to company standards, maintaining high quality and hygiene levels.",
+      "Collaborate with team members to ensure efficient operations, including order taking, food preparation, and maintaining cleanliness of the workspace.",
+      "Handle deliveries and pickups, ensuring accurate and timely service for customers."
+    ]
+  },
+  {
+    "logo": "images/amd.jpeg",
+    "alt": "AMD logo",
+    "title": "Custom Software Engineering Stability Operator & Debug Co-op Intern, AMD",
+    "date": "May 2023 - April 2024",
+    "bullets": [
+      "Assembled, maintained, and tested a stability bench of 50+ systems for next-generation product reference boards and OEM pre-production systems, by configuring the software stack, including graphics drivers, SBIOS, chipset drivers, 3rd party drivers, and OS image.",
+      "Streamlined coverage test plans, result collection, and reporting processes by designing test automation scripts in PowerShell and Python, reducing daily test kickoff time by 35%.",
+      "Assisted in issue reproduction, log review, and defect investigation for graphics (GPU) driver related issues with debug teams, and established new training documentation to improve onboarding efficiency."
+    ]
+  },
+  {
+    "logo": "images/focuspoint-optical.jpeg",
+    "alt": "Focuspoint Optical logo",
+    "title": "Data Entry/File Clerk, Focuspoint Optical",
+    "date": "June 2020 - May 2023",
+    "bullets": [
+      "Streamlined filing systems for the optical and optometry departments, increasing operational efficiency by 20%.",
+      "Managed the reception, processing, and distribution of office documents to relevant departments, ensuring a seamless and efficient workflow.",
+      "Provided administrative support to the optometry team, including scheduling appointments and maintaining patient records, contributing to improved patient service and satisfaction."
+    ]
+  },
+  {
+    "logo": "images/351-logo.webp",
+    "alt": "351 Silver Star Squadron logo",
+    "title": "Course Instructor & Flight Second-in-Command (2IC), 351 Silver Star Royal Canadian Air Cadet Squadron",
+    "date": "September 2019 - June 2020 (Part of the Cadet program from 2014-2020)",
+    "bullets": [
+      "Developed and delivered weekly instructional sessions on leadership, aviation, and aircrew survival to groups of up to 30 cadets, enhancing their skills and knowledge.",
+      "Conducted regular inspections of uniforms for over 20 cadets, ensuring adherence to maintenance and proper wear standards, resulting in a 30% reduction in uniform infractions.",
+      "Coordinated and supervised training exercises and events, fostering teamwork and leadership development among cadets."
+    ]
+  },
+  {
+    "logo": "images/reading-circle.webp",
+    "alt": "Reading Circle logo",
+    "title": "Reading Circle Volunteer, Scarborough Agincourt Reading Circle",
+    "date": "December 2017 - May 2019",
+    "bullets": [
+      "Facilitated one-on-one and small group reading sessions with children aged 4 to 12.",
+      "Supported activities and crafts.",
+      "Assisted with setup and cleanup for the weekly Reading Circle program at the Toronto Public Library."
+    ]
+  }
+]

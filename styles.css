@@ -242,24 +242,9 @@ nav .right a span {
   }
 }
 
-.experience-section .container:nth-child(1){
-  animation-delay: 0s;
-}
-.experience-section .container:nth-child(2){
-  animation-delay: 1s;
-}
-.experience-section .container:nth-child(3){
-  animation-delay: 2s;
-}
-.experience-section .container:nth-child(4){
-  animation-delay: 3s;
-}
-.experience-section .container:nth-child(5){
-  animation-delay: 4s;
-}
-.experience-section .container:nth-child(6){
-  animation-delay: 5s;
-}
+/* Animation delay is set inline per item in js/main.js (based on its
+   position in data/experience.json), so it scales to any number of
+   entries instead of being hard-coded to the first 6. */
 
 .experience-section .text-box{
   padding: 20px 30px;
@@ -302,20 +287,20 @@ nav .right a span {
   content: '';
   position: absolute;
   width: 6px;
-  height: 1800px;
+  height: 100%;
   background: #21384f;
   top:0;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
-  animation: moveline 4s linear forwards;
+  animation: moveline 1.5s linear forwards;
 }
 @keyframes moveline{
   0%{
     height: 0;
   }
   100%{
-    height: 100;
+    height: 100%;
   }
 }
 .experience-section .left-container-arrow{

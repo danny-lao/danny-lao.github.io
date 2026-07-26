@@ -1,0 +1,13 @@
+[
+  { "img": "images/python-logo.webp", "alt": "Python logo", "label": "Python" },
+  { "img": "images/vhdl.png", "alt": "VHDL logo", "label": "VHDL/Verilog" },
+  { "img": "images/C.png", "alt": "C logo", "label": "C/C++" },
+  { "img": "images/java.jpg", "alt": "Java logo", "label": "Java" },
+  { "img": "images/sql-logo.webp", "alt": "SQL logo", "label": "SQL" },
+  { "img": "images/powershell.png", "alt": "Powershell logo", "label": "Powershell" },
+  { "img": "images/html-logo.webp", "alt": "HTML logo", "label": "HTML" },
+  { "img": "images/css-logo.webp", "alt": "CSS logo", "label": "CSS" },
+  { "img": "images/windbg.png", "alt": "WinDbg logo", "label": "WinDbg" },
+  { "img": "images/pc-logo.webp", "alt": "PC logo", "label": "PC Building" },
+  { "img": "images/mongodb.png", "alt": "MongoDB logo", "label": "MongoDB" }
+]

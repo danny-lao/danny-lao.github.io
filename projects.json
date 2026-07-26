@@ -1,0 +1,50 @@
+[
+  {
+    "img": "images/3dmark.jpg",
+    "title": "3DMark Benchmark Automation Tool",
+    "description": "Python Script to Automate Testing GPU overclocks/undervolts via 3DMark TimeSpy Extreme. Makes use of PyAutoGUI and ElementTree XML API to help the automation process.",
+    "link": { "text": "GitHub", "url": "https://github.com/danny-lao/3DMarkAutomated" }
+  },
+  {
+    "img": "images/oracle-apex.png",
+    "title": "Student Portal Oracle SQL Database Project",
+    "description": "Oracle SQL database project within the Oracle APEX environment. Created with 2 other students. The goal was to create a version of the university's student portal system.",
+    "link": { "text": "Documentation", "url": "https://docs.google.com/document/d/1zUPYC5g1Tx5G9BjwIaAgAKddBguANnCtDhKd_ZryAQg/edit?usp=sharing" }
+  },
+  {
+    "img": "images/wordle.jpg",
+    "title": "Wordle: Python Terminal Edition",
+    "description": "Wordle but within the Python terminal. Pulls 5-letter words from https://eslforums.com/5-letter-words/",
+    "link": { "text": "GitHub", "url": "https://github.com/danny-lao/WordleTerminal" }
+  },
+  {
+    "img": "images/p2p.jpg",
+    "title": "Peer-to-Peer (P2P) Application (Linux)",
+    "description": "Developed a Linux-based Peer-to-Peer application in C with a classmate, utilizing an index server for content registration and address resolution, and a peer-to-peer network for demonstrating proficiency in decentralized communication and resource sharing.",
+    "link": { "text": "Documentation", "url": "https://docs.google.com/document/d/1rFHThwC233hrk92Fe5N_l5nTT4_CU9OEGihAzL746CY/edit?usp=sharing" }
+  },
+  {
+    "img": "images/cpu.png",
+    "title": "General Purpose CPU (RISC)",
+    "description": "Developed and implemented a RISC CPU in VHDL, integrating a control unit, data-path, and reset circuit using Altera Quartus II. Conducted timing simulations and testing to validate CPU operations.",
+    "link": null
+  },
+  {
+    "img": "images/bookstore.png",
+    "title": "Java Bookstore Application",
+    "description": "Developed a bookstore application with a team of four using JavaFX for the GUI, incorporating the State Design Pattern for a reward point system and the Singleton Design Pattern to manage book and customer databases.",
+    "link": null
+  },
+  {
+    "img": "images/cache2.png",
+    "title": "Cache Controller Project",
+    "description": "Developed a cache controller in VHDL on the Spartan-3E FPGA, optimizing data transfer between CPU, SRAM, and SDRAM. Implemented FSM logic for cache hit/miss management with data coherence, achieving performance gains through extensive simulation and testing on Xilinx ISE.",
+    "link": { "text": "Documentation", "url": "https://docs.google.com/document/d/18gH4NoIq5SOz6Zd0JVBMmhlBq_aNewqWRzkovg_Jpuc/edit?usp=sharing" }
+  },
+  {
+    "img": "images/economic-model.png",
+    "title": "Parallel Computing for Economic Modelling (Capstone Project)",
+    "description": "Designed and built a parallel computing system with a team for economic modeling and stock correlation analysis, achieving significant performance improvements with Python and TensorFlow. Final implementation uses C++ with OpenMP to enhance scalability across multi-core systems. Achieved a 320% increase in performance with parallelization.",
+    "link": null
+  }
+]
