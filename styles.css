@@ -1,4 +1,3 @@
-
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
@@ -157,6 +156,66 @@ nav .right a span {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+
+.aboutme-section .text p {
+  margin-bottom: 20px;
+}
+
+.aboutme-section .text > p:last-child {
+  margin-bottom: 0;
+}
+
+.aboutme-section .text .intro {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.aboutme-section .tldr {
+  border: 2px solid var(--link-color);
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  background-color: rgba(74, 118, 238, 0.06);
+}
+
+.aboutme-section .tldr summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  list-style: none;
+}
+
+.aboutme-section .tldr summary::-webkit-details-marker {
+  display: none;
+}
+
+.aboutme-section .tldr summary::after {
+  content: '\f078';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--link-color);
+  transition: transform .2s ease;
+}
+
+.aboutme-section .tldr[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.aboutme-section .tldr-content {
+  margin-top: 15px;
+}
+
+.aboutme-section .tldr-content p {
+  margin-bottom: 15px;
+}
+
+.aboutme-section .tldr-content p:last-child {
+  margin-bottom: 0;
 }
 
 /* SECTION 3:Skills */

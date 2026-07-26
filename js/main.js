@@ -11,6 +11,23 @@ async function loadJSON(path) {
   return response.json();
 }
 
+function renderAboutMe(aboutMe) {
+  const container = document.getElementById("aboutme-text");
+  if (!container) return;
+
+  const tldrParagraphs = aboutMe.tldr.map((paragraph) => `<p>${paragraph}</p>`).join("");
+  const fullParagraphs = aboutMe.full.map((paragraph) => `<p>${paragraph}</p>`).join("");
+
+  container.innerHTML = `
+    <p class="intro">${aboutMe.intro}</p>
+    <details class="tldr">
+      <summary>TLDR</summary>
+      <div class="tldr-content">${tldrParagraphs}</div>
+    </details>
+    ${fullParagraphs}
+  `;
+}
+
 function renderSkills(skills) {
   const container = document.getElementById("skills-list");
   if (!container) return;
@@ -82,6 +99,7 @@ function renderProjects(projects) {
 
 async function init() {
   const sections = [
+    { path: "data/aboutme.json", render: renderAboutMe, id: "aboutme-text" },
     { path: "data/skills.json", render: renderSkills, id: "skills-list" },
     { path: "data/experience.json", render: renderExperience, id: "experience-timeline" },
     { path: "data/projects.json", render: renderProjects, id: "projects-list" },

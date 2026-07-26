@@ -1,0 +1,13 @@
+{
+  "intro": "Welcome to my page!",
+  "tldr": [
+    "I recently returned to AMD as Software Development Engineer 2 on contract. Turned my passion of building computers in high school into my 5-year Computer (Software) Engineering degree with co-op also at AMD. My main focus areas are regression, manual, and automated testing of pre-production systems.",
+    "My hobbies are PC Building, gaming, cooking, baking, music and Formula 1. Feel free to check out my PC part lists below and if you need help building a PC, feel free to send me a LinkedIn message or email."
+  ],
+  "full": [
+    "Hi! I am a dedicated Software Validation Engineer & PC Builder who recently graduated with a Bachelor's degree (B.Eng) in Computer Engineering (Software Engineering Option) from Toronto Metropolitan University (formerly Ryerson University) in June 2025. I recently returned to AMD to further develop validation expertise and to lead regression and manual testing of pre-production systems.",
+    "During my internship on AMD's Customer Software Engineering team, I validated GPU/APU drivers across 60+ test systems, built Python/PowerShell automation that cut manual test kickoff time by 35%+, and worked with QA/debug teams to triage graphics driver failures.",
+    "My prior work experience, projects, and classes have provided me with expertise in software testing and quality assurance. I am particularly interested in these areas, as well as customer engineering, machine learning, and artificial intelligence. As a continuous and quick learner, I am always eager to expand my knowledge and skills.",
+    "As for my hobbies, I love gaming, PC building/consulting, baking, cooking, music, and all things Formula 1. The whole story of how I fell in love with PC building is too long for this section but I love sharing it with people. Just some Linus Tech Tips and Gamers Nexus and then boom, I build computers for fun quite often. Feel free to check out some recommended PC part lists down below or reach out for a free consultation!"
+  ]
+}
