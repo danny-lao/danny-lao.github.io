@@ -23,6 +23,15 @@
     ]
   },
   {
+    "logo": "images/tmu-logo.jpg",
+    "alt": "Toronto Metropolitan University logo",
+    "title": "Bachelor of Engineering (B.Eng), Computer Engineering — Software Specialization, Toronto Metropolitan University (formerly Ryerson University)",
+    "date": "Sept 2020 - June 2025",
+    "bullets": [
+      "Relevant Coursework: Advanced Algorithms, Operating Systems, Software Testing & QA, Distributed & Cloud Computing, Computer Vision, Database Systems, Computer Architecture & Organization, Intelligent Systems"
+    ]
+  },
+  {
     "logo": "images/amd.jpeg",
     "alt": "AMD logo",
     "title": "Custom Software Engineering Stability Operator & Debug Co-op Intern, AMD",

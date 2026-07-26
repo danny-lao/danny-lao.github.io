@@ -1,7 +1,7 @@
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  --background-color: #eaeaea;
 }
 
 * {
@@ -29,7 +29,7 @@ a {
 
 /* Footer Styles */
 footer {
-  background-color: #eeeff1;
+  background-color: #eaeaea;
   color: #333;
   text-align: center;
   padding: 20px 0;
